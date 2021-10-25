@@ -29,7 +29,7 @@ def startNewReceipt():
 
     total=0
     while purchaseGoing:
-        # ProductRegister
+
         kommando = input("Kommando:")
         if kommando == "PAY":
             for receipt in receipt_list:
